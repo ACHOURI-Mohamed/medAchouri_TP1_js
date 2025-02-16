@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MiniWord</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: rgba(212,241,255,0.55)">
+
+<div id="container">
+
+    <input type="color" class="form-control form-control-color" id="colorPicker" value="#000000" title="Choose your color" >
+    <div data-mdb-input-init class="form-outline" style="width: 22rem;">
+        <input value="11" type="number" id="fontSize" class="form-control "  min="11" max="78"/>
+    </div>
+    <select id="fonts"  class="form-select form-select-sm" aria-label="Small select example">
+        <option value="Arial, sans-serif">Arial</option>
+        <option value="Times New Roman, serif">Times New Roman</option>
+        <option value="Courier New, monospace">Courier New</option>
+        <option value="Georgia, serif">Georgia</option>
+        <option value="Verdana, sans-serif">Verdana</option>
+    </select>
+
+</div>
+
+
+<p class="mt-5" id="output" style="box-shadow: #828283 2.5px 5px 10px;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis <br>
+    delectus deserunt dolore dolorum eius est illo inventore ipsum maiores modi,<br>
+    molestias quas quia quod repellat rerum sequi veniam voluptatum?
+</p>
+
+</body>
+<script src="index.js"></script>
+</html>
