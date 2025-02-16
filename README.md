@@ -1,1 +1,2 @@
-# medAchouri_TP1_js
+# éditeur: Mohamed ACHOURI 
+# filliere : RT2, groupe: 3
